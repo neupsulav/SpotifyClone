@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+            <p>Spotify</p>
+        </div>
+
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="title">Best of NCS - No Copyright Sounds</div>
+        <div class="songs">
+            <div class="song-items" id="1">
+                <img src="covers/1.jpg" alt="" class="cover-img">
+                <div class="title-item">Warriyo - Mortals [NCS Release]</div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="2"><img src="covers/2.jpg" alt="" class="cover-img">
+                <div class="title-item">Cielo - Huma-Huma</div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="3"><img src="covers/3.jpg" alt="" class="cover-img">
+                <div class="title-item">DEAF KEV - Invincible [NCS Release]-320k</div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="4"><img src="covers/4.jpg" alt="" class="cover-img">
+                <div class="title-item">Different Heaven & EH!DE - My Heart [NCS Release]
+                </div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="5"><img src="covers/5.jpg" alt="" class="cover-img">
+                <div class="title-item">Janji-Heroes-Tonight-feat-Johnning-NCS-Release</div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="6"><img src="covers/6.jpg" alt="" class="cover-img">
+                <div class="title-item">Rabba - Salam-e-Ishq</div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="7"><img src="covers/7.jpg" alt="" class="cover-img">
+                <div class="title-item">Sakhiyaan - Salam-e-Ishq</div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="8"><img src="covers/8.jpg" alt="" class="cover-img">
+                <div class="title-item">Bhula Dena - Salam-e-Ishq</div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="9"><img src="covers/9.jpg" alt="" class="cover-img">
+                <div class="title-item">Tumhari Kasam - Salam-e-Ishq</div>
+                <div class="time">05:34</div>
+            </div>
+            <div class="song-items" id="10"><img src="covers/10.jpg" alt="" class="cover-img">
+                <div class="title-item">Na Jaana - Salam-e-Ishq</div>
+                <div class="time">05:34</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="player">
+        <input type="range" name="range" id="progressBar" min="0" max="100" value="0">
+        <p class="song-name" id="songName">Warriyo - Mortals [NCS Release]</p>
+        <div class="icons">
+            <i class="fas fa-circle-left" id="prevBtn"></i>
+            <i id="pausePlayBtn" class="fas fa-play"></i>
+            <i class="fas fa-circle-right" id="nextBtn"></i>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
